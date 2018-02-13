@@ -7,20 +7,23 @@ export default class extends Component {
   renderRepublicans () {
     return getRepublicans().map(senator => <Senator person={senator}/>)
   }
-  
+  renderDemocrats () {
+    return getDemocrats().map(senator => <Senator person={senator}/>)
+  }
   //renderDemocrats
   
   render() {
     
     const republicans = this.renderRepublicans()
+    const democrats = this.renderDemocrats()
     //use Rendered Democrats
     
     return (
       <div>
         <h1>Republicans</h1>
         {republicans}
-        
-        {/*Display Democrats*/}
+        <h1>Democrats</h1>
+        {democrats}
       </div>
     );
   }

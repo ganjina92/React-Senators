@@ -1,5 +1,11 @@
 body {
-  margin: 0;
-  padding: 0;
+  margin: 10px;
+  padding: 20px;
   font-family: sans-serif;
+  background-color: darkseagreen;
+  text-decoration-line: underline;
+  text-decoration-color: red;
+
+
 }
+
