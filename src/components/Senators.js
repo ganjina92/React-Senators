@@ -22,7 +22,8 @@ export default class extends Component {
       <div>
         <h1>Republicans</h1>
         {republicans}
-        <h1>Democrats</h1>
+        <hr></hr>
+        <h2>Democrats</h2>
         {democrats}
       </div>
     );
